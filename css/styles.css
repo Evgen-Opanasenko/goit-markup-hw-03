@@ -251,7 +251,6 @@ button:focus {
 /* ======  skill ====== */
 .section-skill-list {
   display: flex;
-  justify-content: space-between;
   margin-right: -30px;
 }
 .section-skill {
@@ -313,7 +312,7 @@ comand */ .section-comand {
   padding-bottom: 94px;
 }
 .section-portfolio-filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -326,7 +325,7 @@ comand */ .section-comand {
   margin-bottom: -30px;
 }
 .section-portfolio-list .item {
-  width: calc(100% / 9-30px);
+  width: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -336,6 +335,10 @@ comand */ .section-comand {
 }
 .name {
   padding: 20px 24px;
+
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .variety {
   margin-top: 4px;
@@ -345,7 +348,7 @@ comand */ .section-comand {
 }
 
 /* ==== footer ==== */
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
